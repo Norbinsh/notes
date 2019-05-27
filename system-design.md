@@ -5,6 +5,7 @@ Resources used:
 
 https://www.youtube.com/watch?v=UzLMhqg3_Wc
 
+https://en.wikipedia.org/wiki/Consistent_hashing
 
 ## General Notes
 - Ask good questions, define the Minimum Viable Product
@@ -48,4 +49,5 @@ https://www.youtube.com/watch?v=UzLMhqg3_Wc
     - Soft-State: Stores don’t have to be write-consistent, nor do different replicas have to be mutually consistent all the time.
     - Eventual consistency: Stores exhibit consistency at some later point (e.g., lazily at read time).
 - Data partitioning/sharding - Let's say you have trillion of records to store, it's not possible that 1 trillion records, it's not possible that 1 node will be in charge of all of it... then comes sharding, how do you shard or split this data such that every node is responsible for some of the records.
-  - Common approach is consistent hashing
+  - Common approach is consistent hashing. 
+- s
