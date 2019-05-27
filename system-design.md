@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=UzLMhqg3_Wc
 - Security & Privacy, could play a central role depending on the use case
 - Cost effectiveness - whether the solution is cost effective, is there an alternate solution that will be more effective, as far as cost is concerned
 
-## Dystem Design Concepts 
+## System Design Concepts 
 - Scaling - Vertical (Stronger host(s)) Vs Horizontal (More host(s))
   - Vertical can be more expensive and limited by a single host, but no distributed system problems
   - Horizontal - you can infinitely add more hosts but then you are facing distributed system challenges
